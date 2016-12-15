@@ -99,5 +99,14 @@ namespace DebuggingConsole.Properties {
                 return ResourceManager.GetString("Day8_Input", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (8x10)SBTLHXZP(141x10)(20x4)PSFDROQLSZCXJYTATIBY(2x9)NN(60x14)(3x15)WUO(2x13)WF(10x14)KRXBNHFEGQ(20x4)SWJUMHNRCRJUPDVFAKMI(35x8)(3x14)VZB(8x15)SWKZSEFU(7x1)FZTLTXZ(152x12)(59x6)(1x14)L(13x7)RYXYIAVOQLUDZ(9x13)RJEZMXTNT(1x8)J(7x5)YNAMBOU(1x4)M(65x10)(6x9)FZGSZU(20x15)JOUTNIFMADHRELAZAZXB(4x4)KDHA(12x7)VFVYZLBLKRGG(3x15)SWDGEUSLFVHBFOQCIQFDID(7506x15)(3157x7)(102x1)(95x15)(20x3)(2x6)OJ(7x12)WANSMOE(37x2)(12x2)(6x13)GFVIEP(12x11)XJNOGCDLPZFK(10x6)NZJQDFALQG(4x11)CIRV(527x9)(147x1)(28x7)(22x1)NUVOZARNIUATLYTIIB [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day9_Input {
+            get {
+                return ResourceManager.GetString("Day9_Input", resourceCulture);
+            }
+        }
     }
 }

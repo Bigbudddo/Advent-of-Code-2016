@@ -30,14 +30,14 @@ namespace DebuggingConsole {
             //Day3.RunPart1(_day3Resource);
             //Day3.RunPart2(_day3Resource);
 
-            string[] day4Test = new string[] { "aaaaa-bbb-z-y-x-123[abxyz]", "a-b-c-d-e-f-g-h-987[abcde]", "not-a-real-room-404[oarel]", "totally-real-room-200[decoy]", "qzmt-zixmtkozy-ivhz-343[]" };
-            string day4Resource = DebuggingConsole.Properties.Resources.Day4_Input;
-            day4Resource = day4Resource.Replace("\r", "");
-            string[] _day4Resource = day4Resource.Split('\n');
-            Day4.RunPart1(_day4Resource);
-            Day4.RunPart2(_day4Resource);
+            //string[] day4Test = new string[] { "aaaaa-bbb-z-y-x-123[abxyz]", "a-b-c-d-e-f-g-h-987[abcde]", "not-a-real-room-404[oarel]", "totally-real-room-200[decoy]", "qzmt-zixmtkozy-ivhz-343[]" };
+            //string day4Resource = DebuggingConsole.Properties.Resources.Day4_Input;
+            //day4Resource = day4Resource.Replace("\r", "");
+            //string[] _day4Resource = day4Resource.Split('\n');
+            //Day4.RunPart1(_day4Resource);
+            //Day4.RunPart2(_day4Resource);
 
-
+            Day5.RunPart1("uqwqemis");
 
 
 

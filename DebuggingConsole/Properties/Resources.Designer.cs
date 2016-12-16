@@ -80,6 +80,65 @@ namespace DebuggingConsole.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to   330  143  338
+        ///  769  547   83
+        ///  930  625  317
+        ///  669  866  147
+        ///   15  881  210
+        ///  662   15   70
+        ///  273  277  707
+        ///   50  592  770
+        ///  280  313  407
+        ///  642  487  372
+        ///   94  619  295
+        ///  734  243  141
+        ///  220  141  515
+        ///  198  824  745
+        ///  210  787  964
+        ///  213  627  601
+        ///  918    4  447
+        ///  805  630  802
+        ///  711  237  987
+        ///  938  552  388
+        ///  643  405  779
+        ///  803  747  525
+        ///  917  832  631
+        ///  899  292  843
+        ///   81  206  445
+        ///  141  874  465
+        ///  177  974   54
+        ///  520  725  814
+        ///  271  958  554
+        ///  779  579  264
+        ///   [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day3_Input {
+            get {
+                return ResourceManager.GetString("Day3_Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to nzydfxpc-rclop-qwzhpc-qtylyntyr-769[oshgk]
+        ///qzlozfhmf-bzmcx-bnzshmf-zbpthrhshnm-339[zmxdi]
+        ///xtwtelcj-rclop-upwwjmply-zapcletzyd-743[itbds]
+        ///mrxivrexmsrep-fewoix-ywiv-xiwxmrk-308[kzypw]
+        ///ibghopzs-qobrm-difqvogwbu-142[lnrzo]
+        ///irgyyolokj-xghhoz-lotgtiotm-228[vnmxd]
+        ///foadouwbu-gqojsbusf-vibh-fsgsofqv-376[ymswi]
+        ///jvuzbtly-nyhkl-wyvqljapsl-wshzapj-nyhzz-ylzlhyjo-903[jnyaz]
+        ///amjmpdsj-cee-qcptgacq-236[caejm]
+        ///nvrgfezqvu-avccpsvre-crsfirkfip-217[nrzcd]
+        ///vdzonmhydc-bzmcx-bnzshmf-zbpthrhshnm-235[znyot]
+        ///oxaflxzqfsb-mi [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day4_Input {
+            get {
+                return ResourceManager.GetString("Day4_Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to rhamaeovmbheijj[hkwbkqzlcscwjkyjulk]ajsxfuemamuqcjccbc
         ///gdlrknrmexvaypu[crqappbbcaplkkzb]vhvkjyadjsryysvj[nbvypeadikilcwg]jwxlimrgakadpxu[dgoanojvdvwfabtt]yqsalmulblolkgsheo
         ///dqpthtgufgzjojuvzvm[eejdhpcqyiydwod]iingwezvcbtowwzc[uzlxaqenhgsebqskn]wcucfmnlarrvdceuxqc[dkwcsxeitcobaylhbvc]klxammurpqgmpsxsr

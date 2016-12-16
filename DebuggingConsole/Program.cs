@@ -16,12 +16,30 @@ namespace DebuggingConsole {
             //Day1.Run(day1File);
             //Day1.RunPart2(day1File);
 
-            string[] day2Test = new string[] { "ULL", "RRDDD", "LURDL", "UUUUD" };
-            string day2Resource = DebuggingConsole.Properties.Resources.Day2_Input;
-            day2Resource = day2Resource.Replace("\r", "");
-            string[] _day2Resource = day2Resource.Split('\n');
-            Day2.RunPart1(_day2Resource);
-            Day2.RunPart2(_day2Resource);
+            //string[] day2Test = new string[] { "ULL", "RRDDD", "LURDL", "UUUUD" };
+            //string day2Resource = DebuggingConsole.Properties.Resources.Day2_Input;
+            //day2Resource = day2Resource.Replace("\r", "");
+            //string[] _day2Resource = day2Resource.Split('\n');
+            //Day2.RunPart1(_day2Resource);
+            //Day2.RunPart2(_day2Resource);
+
+            //string[] day3Test = new string[] { "5 10 25" };
+            //string day3Resource = DebuggingConsole.Properties.Resources.Day3_Input;
+            //day3Resource = day3Resource.Replace("\r", "");
+            //string[] _day3Resource = day3Resource.Split('\n');
+            //Day3.RunPart1(_day3Resource);
+            //Day3.RunPart2(_day3Resource);
+
+            string[] day4Test = new string[] { "aaaaa-bbb-z-y-x-123[abxyz]", "a-b-c-d-e-f-g-h-987[abcde]", "not-a-real-room-404[oarel]", "totally-real-room-200[decoy]", "qzmt-zixmtkozy-ivhz-343[]" };
+            string day4Resource = DebuggingConsole.Properties.Resources.Day4_Input;
+            day4Resource = day4Resource.Replace("\r", "");
+            string[] _day4Resource = day4Resource.Split('\n');
+            Day4.RunPart1(_day4Resource);
+            Day4.RunPart2(_day4Resource);
+
+
+
+
 
             //string _dResource = DebuggingConsole.Properties.Resources.Day7_Input;
             //_dResource = _dResource.Replace("\r", "");

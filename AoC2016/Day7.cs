@@ -7,50 +7,129 @@ namespace AoC2016 {
     
     public static class Day7 {
 
-        public static int Run(string[] input) {
-            int counter = 0;
+        public static void RunPart1(string[] input) {
+            long counter = 0;
             foreach (string s in input) {
-                if (CheckLine(s)) counter++;
+                string sequence = string.Empty;
+                List<string> nonBracketSequences = new List<string>();
+                List<string> BracketSequences = new List<string>();
+            
+                foreach (char c in s.ToCharArray()) {
+                    if (c == '[') {
+                        nonBracketSequences.Add(sequence);
+                        sequence = string.Empty;
+                        continue;
+                    }
+                    else if (c == ']') {
+                        BracketSequences.Add(sequence);
+                        sequence = string.Empty;
+                        continue;
+                    }
+                    else {
+                        sequence += c.ToString();
+                    }
+                }
+                nonBracketSequences.Add(sequence);
+
+                bool check = false;
+                foreach (string bSeq in BracketSequences) {
+                    if (CheckAbba(bSeq)) {
+                        check = true;
+                        break;
+                    }
+                }
+
+                if (!check) {
+                    foreach (string nbSeq in nonBracketSequences) {
+                        if (CheckAbba(nbSeq)) {
+                            counter++;
+                            break;
+                        }
+                    }   
+                }
             }
-            return counter;
+            Console.WriteLine(string.Format("Total Number of TLS IPS: {0}", counter));
         }
 
-        public static bool isAbbaSequence(string sequence) {
-            char[] c = sequence.ToCharArray();
-            for (int i = 0; i < c.Length - 3; i++) {
-                if (c[i + 1] == c[i + 3]) return false; //inner ones cannot be the same
+        public static void RunPart2(string[] input) {
+            long counter = 0;
+            foreach (string s in input) {
+                string sequence = string.Empty;
+                List<string> nonBracketSequences = new List<string>();
+                List<string> BracketSequences = new List<string>();
 
-                string sequenceA = c[i].ToString() + c[i + 1].ToString();
-                string sequenceB = c[i + 3].ToString() + c[i + 2].ToString();
-                if (sequenceA == sequenceB) return true;
+                foreach (char c in s.ToCharArray()) {
+                    if (c == '[') {
+                        nonBracketSequences.Add(sequence);
+                        sequence = string.Empty;
+                        continue;
+                    }
+                    else if (c == ']') {
+                        BracketSequences.Add(sequence);
+                        sequence = string.Empty;
+                        continue;
+                    }
+                    else {
+                        sequence += c.ToString();
+                    }
+                }
+                nonBracketSequences.Add(sequence);
+
+                bool flag = false;
+                foreach (string nbSeq in nonBracketSequences) {
+                    flag = false;
+                    int position = 0;
+
+                    while (position < nbSeq.Length) {
+                        string aba = FindABA(nbSeq, ref position, out position);
+                        if (aba != null) {
+                            string bab = FindBAB(aba);
+                            foreach (string bSeq in BracketSequences) {
+                                if (bSeq.Contains(bab)) {
+                                    flag = true;
+                                    counter++;
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (flag) break;
+                    }
+                    if (flag) break;
+                }
+            }
+            Console.WriteLine(string.Format("Total Number of SSL: {0}", counter));
+        }
+
+        public static bool CheckAbba(string s) {
+            char[] c = s.ToCharArray();
+            for (int i = 0; i < c.Length - 3; i++) {
+                if (c[i + 1] == c[i + 2]) {
+                    if (c[i] != c[i + 1]) {
+                        if (c[i] == c[i + 3]) {
+                            return true;
+                        }
+                    }
+                }
             }
             return false;
         }
 
-        public static bool CheckLine(string line) {
-            bool check = false;
-            char[] _line = line.ToCharArray();
-
-            string tempString = string.Empty;
-            for (int i = 0; i < _line.Length; i++) {
-                if (_line[i] == '[') {
-                    string bracketSequence = new String(_line.Skip(i + 1).TakeWhile(x => x != ']').ToArray());
-
-                    if (isAbbaSequence(bracketSequence)) {
-                        return false;
-                    }
-                    else if (isAbbaSequence(tempString)) {
-                        check = true;
-                    }
-
-                    tempString = string.Empty;
-                    i += bracketSequence.Length + 2;
-                }
-                else {
-                    tempString += _line[i];
+        public static string FindABA(string s, ref int start, out int index) {
+            char[] c = s.ToCharArray();
+            for (int i = start; i < c.Length - 2; i++) {
+                if (c[i] == c[i + 2] && c[i] != c[i + 1]) {
+                    index = i + 1;
+                    return c[i].ToString() + c[i + 1].ToString() + c[i + 2].ToString();
                 }
             }
-            return check;
+            index = start + 1;
+            return null;
+        }
+
+        public static string FindBAB(string aba) {
+            char[] c = aba.ToCharArray();
+            return c[1].ToString() + c[0].ToString() + c[1].ToString();
         }
     }
 }

@@ -12,9 +12,16 @@ namespace DebuggingConsole {
         
         static void Main(string[] args) {
             
-            string day1File = DebuggingConsole.Properties.Resources.Day1_Input;
+            //string day1File = DebuggingConsole.Properties.Resources.Day1_Input;
             //Day1.Run(day1File);
-            Day1.RunPart2(day1File);
+            //Day1.RunPart2(day1File);
+
+            string[] day2Test = new string[] { "ULL", "RRDDD", "LURDL", "UUUUD" };
+            string day2Resource = DebuggingConsole.Properties.Resources.Day2_Input;
+            day2Resource = day2Resource.Replace("\r", "");
+            string[] _day2Resource = day2Resource.Split('\n');
+            Day2.RunPart1(_day2Resource);
+            Day2.RunPart2(_day2Resource);
 
             //string _dResource = DebuggingConsole.Properties.Resources.Day7_Input;
             //_dResource = _dResource.Replace("\r", "");

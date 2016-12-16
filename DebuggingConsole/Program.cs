@@ -37,9 +37,12 @@ namespace DebuggingConsole {
             //Day4.RunPart1(_day4Resource);
             //Day4.RunPart2(_day4Resource);
 
-            Day5.RunPart1("uqwqemis");
+            //Day5.RunPart1("uqwqemis");
 
-
+            string day6Resource = DebuggingConsole.Properties.Resources.Day6_Input;
+            day6Resource = day6Resource.Replace("\r", "");
+            string[] _day6Resource = day6Resource.Split('\n');
+            Day6.RunPart1(_day6Resource);
 
             //string _dResource = DebuggingConsole.Properties.Resources.Day7_Input;
             //_dResource = _dResource.Replace("\r", "");

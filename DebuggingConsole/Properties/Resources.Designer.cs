@@ -139,6 +139,30 @@ namespace DebuggingConsole.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to eedadn
+        ///drvtee
+        ///eandsr
+        ///raavrd
+        ///atevrs
+        ///tsrnev
+        ///sdttsa
+        ///rasrtv
+        ///nssdts
+        ///ntnada
+        ///svetve
+        ///tesnvt
+        ///vntsnd
+        ///vrdear
+        ///dvrsen
+        ///enarar.
+        /// </summary>
+        internal static string Day6_Input {
+            get {
+                return ResourceManager.GetString("Day6_Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to rhamaeovmbheijj[hkwbkqzlcscwjkyjulk]ajsxfuemamuqcjccbc
         ///gdlrknrmexvaypu[crqappbbcaplkkzb]vhvkjyadjsryysvj[nbvypeadikilcwg]jwxlimrgakadpxu[dgoanojvdvwfabtt]yqsalmulblolkgsheo
         ///dqpthtgufgzjojuvzvm[eejdhpcqyiydwod]iingwezvcbtowwzc[uzlxaqenhgsebqskn]wcucfmnlarrvdceuxqc[dkwcsxeitcobaylhbvc]klxammurpqgmpsxsr

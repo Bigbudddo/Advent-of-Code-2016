@@ -70,6 +70,26 @@ namespace DebuggingConsole.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to bot 147 gives low to bot 67 and high to bot 71
+        ///bot 142 gives low to bot 128 and high to bot 164
+        ///bot 47 gives low to bot 4 and high to bot 209
+        ///bot 107 gives low to bot 194 and high to bot 103
+        ///bot 102 gives low to bot 82 and high to bot 3
+        ///bot 101 gives low to bot 46 and high to bot 111
+        ///value 23 goes to bot 76
+        ///bot 16 gives low to bot 203 and high to bot 32
+        ///bot 30 gives low to output 20 and high to bot 31
+        ///bot 170 gives low to bot 123 and high to bot 108
+        ///value 3 goes to bot 122
+        ///bot 176 gives low to bo [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day10_Input {
+            get {
+                return ResourceManager.GetString("Day10_Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LRRLLLRDRURUDLRDDURULRULLDLRRLRLDULUDDDDLLRRLDUUDULDRURRLDULRRULDLRDUDLRLLLULDUURRRRURURULURRULRURDLULURDRDURDRLRRUUDRULLLLLDRULDDLLRDLURRLDUURDLRLUDLDUDLURLRLDRLUDUULRRRUUULLRDURUDRUDRDRLLDLDDDLDLRRULDUUDULRUDDRLLURDDRLDDUDLLLLULRDDUDDUUULRULUULRLLDULUDLLLLURRLDLUDLDDLDRLRRDRDUDDDLLLLLRRLLRLUDLULLDLDDRRUDDRLRDDURRDULLLURLRDLRRLRDLDURLDDULLLDRRURDULUDUDLLLDDDLLRLDDDLLRRLLURUULULDDDUDULUUURRUUDLDULULDRDDLURURDLDLULDUDUDDDDD
         ///RUURUDRDUULRDDLRLLLULLDDUDRDURDLRUULLLLUDUDRRUDUULRRUUDDURDDDLLLLRRUURULULLUDDLRDUDU [rest of string was truncated]&quot;;.
         /// </summary>
@@ -139,22 +159,58 @@ namespace DebuggingConsole.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to eedadn
-        ///drvtee
-        ///eandsr
-        ///raavrd
-        ///atevrs
-        ///tsrnev
-        ///sdttsa
-        ///rasrtv
-        ///nssdts
-        ///ntnada
-        ///svetve
-        ///tesnvt
-        ///vntsnd
-        ///vrdear
-        ///dvrsen
-        ///enarar.
+        ///   Looks up a localized string similar to wrqhvxvz
+        ///fyzrlmet
+        ///mnoqzwlx
+        ///nckjlmjq
+        ///ppgpwuhw
+        ///gwmlkpsf
+        ///mraribhd
+        ///eexeibet
+        ///phnkfnoj
+        ///huvgfryn
+        ///cctfbymg
+        ///vuzqijfv
+        ///csxkasak
+        ///thdtpgsv
+        ///qtvawqyd
+        ///sbrzqyjv
+        ///tsgeceoo
+        ///iersjjvv
+        ///kkaftivi
+        ///cohpqdsa
+        ///jqntmweh
+        ///ggwfrfij
+        ///etgdxkpm
+        ///chpiqqnk
+        ///mmubsxma
+        ///bjbuxerx
+        ///ppikxcba
+        ///argnznvv
+        ///upxrvrws
+        ///cnutkqpc
+        ///sjxwbjgd
+        ///qydjtzwt
+        ///fosmuary
+        ///kbegfawt
+        ///qrhczgxr
+        ///xveyfklu
+        ///fpijdoxk
+        ///efwixzzt
+        ///pohwstgq
+        ///vlacdfij
+        ///idyukbzr
+        ///fomngohx
+        ///byfhtiqm
+        ///nygeoydz
+        ///zzindnsu
+        ///cqpxyvpx
+        ///urbwswjx
+        ///bcrsfufk
+        ///ogprzbbb
+        ///ecqadcfs
+        ///djtpcvzf
+        ///om [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day6_Input {
             get {

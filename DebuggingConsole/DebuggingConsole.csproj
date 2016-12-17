@@ -85,6 +85,9 @@
   <ItemGroup>
     <None Include="Resources\Day6_Input.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Day10_Input.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

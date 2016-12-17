@@ -44,13 +44,13 @@ namespace DebuggingConsole {
             //string[] _day6Resource = day6Resource.Split('\n');
             //Day6.RunPart1(_day6Resource);
 
-            string[] day7Test = new string[] { "abba[mnop]qrst", "abcd[bddb]xyyx", "aaaa[qwer]tyui", "ioxxoj[asdfgh]zxcvbn" };
-            string[] day7Test2 = new string[] { "aba[bab]xyz", "xyx[xyx]xyx", "aaa[kek]eke", "zazbz[bzb]cdb" };
-            string day7Resource = DebuggingConsole.Properties.Resources.Day7_Input;
-            day7Resource = day7Resource.Replace("\r", "");
-            string[] _day7Resource = day7Resource.Split('\n');
-            Day7.RunPart1(_day7Resource);
-            Day7.RunPart2(_day7Resource);
+            //string[] day7Test = new string[] { "abba[mnop]qrst", "abcd[bddb]xyyx", "aaaa[qwer]tyui", "ioxxoj[asdfgh]zxcvbn" };
+            //string[] day7Test2 = new string[] { "aba[bab]xyz", "xyx[xyx]xyx", "aaa[kek]eke", "zazbz[bzb]cdb" };
+            //string day7Resource = DebuggingConsole.Properties.Resources.Day7_Input;
+            //day7Resource = day7Resource.Replace("\r", "");
+            //string[] _day7Resource = day7Resource.Split('\n');
+            //Day7.RunPart1(_day7Resource);
+            //Day7.RunPart2(_day7Resource);
 
             //Day8_2.SetupBaseGrid();
             //Day8_2.OutputGridToScreen();
@@ -61,14 +61,13 @@ namespace DebuggingConsole {
             //string _dResource = DebuggingConsole.Properties.Resources.Day9_Input;
             //string day9TestString = "ADVENTA(1x5)BC(3x3)XYZA(2x2)BCD(2x2)EFG(6x1)(1x3)AX(8x2)(3x3)ABCY";
             //string day9TestString = "(27x12)(20x12)(13x14)(7x10)(1x12)A";
-
             //long result = Day9.Part1(_dResource.ToCharArray(), 1);
             //Console.WriteLine(String.Format("Part 1 Solution is... {0}", result));
 
-            //string[] day7test = new string[] { "abba[mnop]qrst", "abcd[bddb]xyyx", "aaaa[qwer]tyui", "ioxxoj[asdfgh]zxcvbn" };
-            //int count = Day7.Run(day7test);
-            //int count = Day7.Run(a_dResource);
-            //Console.WriteLine(String.Format("Result: {0}", count));
+            string[] day8Test = new string[] { "value 5 goes to bot 2", "bot 2 gives low to bot 1 and high to bot 0", "value 3 goes to bot 1", 
+                "bot 1 gives low to output 1 and high to bot 0", "bot 0 gives low to output 2 and high to output 0", "value 2 goes to bot 2"
+            };
+            Day10.RunPart1(day8Test);
 
             /// The End is here...
             Console.WriteLine("");

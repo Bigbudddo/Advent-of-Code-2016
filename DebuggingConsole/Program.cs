@@ -64,12 +64,19 @@ namespace DebuggingConsole {
             //long result = Day9.Part1(_dResource.ToCharArray(), 1);
             //Console.WriteLine(String.Format("Part 1 Solution is... {0}", result));
 
-            string day12Resource = DebuggingConsole.Properties.Resources.Day12_Input;
-            day12Resource = day12Resource.Replace("\r", "");
-            string[] _day12Resource = day12Resource.Split('\n');
-            string[] day12Test = new string[] { "cpy 41 a", "inc a", "inc a", "dec a", "jnz a 2", "dec a" };
-            Day12.RunPart1(_day12Resource);
+            //string day12Resource = DebuggingConsole.Properties.Resources.Day12_Input;
+            //day12Resource = day12Resource.Replace("\r", "");
+            //string[] _day12Resource = day12Resource.Split('\n');
+            //string[] day12Test = new string[] { "cpy 41 a", "inc a", "inc a", "dec a", "jnz a 2", "dec a" };
+            //Day12.RunPart1(_day12Resource);
 
+            //int answer = Day13.RunPart1(1, 1, 7, 4, 10);
+            //int answer = Day13.RunPart1(1, 1, 31, 39, 1350);
+            int answer = Day13.RunPart2(1, 1, 31, 39, 50, 1350);
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Answer is {0}", answer);
 
 
             //string[] day8Test = new string[] { "value 5 goes to bot 2", "bot 2 gives low to bot 1 and high to bot 0", "value 3 goes to bot 1", 

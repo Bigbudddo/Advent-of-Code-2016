@@ -71,8 +71,8 @@ namespace DebuggingConsole {
             //Day12.RunPart1(_day12Resource);
 
             //int answer = Day13.RunPart1(1, 1, 7, 4, 10);
-            //int answer = Day13.RunPart1(1, 1, 31, 39, 1350);
-            int answer = Day13.RunPart2(1, 1, 31, 39, 50, 1350);
+            int answer = Day13.RunPart1(1, 1, 31, 39, 1350);
+            //int answer = Day13.RunPart2(1, 1, 31, 39, 50, 1350);
             Console.WriteLine();
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.White;

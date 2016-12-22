@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Threading;
 using System.Text;
 
 namespace AoC2016 {
@@ -134,6 +135,7 @@ namespace AoC2016 {
             Console.ForegroundColor = (isWall) ? ConsoleColor.Red : ConsoleColor.White;
             Console.SetCursorPosition(p.X, p.Y);
             Console.Write(writeChar);
+            Thread.Sleep(10);
         }
     }
 

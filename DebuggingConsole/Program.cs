@@ -70,14 +70,22 @@ namespace DebuggingConsole {
             //string[] day12Test = new string[] { "cpy 41 a", "inc a", "inc a", "dec a", "jnz a 2", "dec a" };
             //Day12.RunPart1(_day12Resource);
 
+            //Console.ReadLine();
+            //Console.Clear();
             //int answer = Day13.RunPart1(1, 1, 7, 4, 10);
-            int answer = Day13.RunPart1(1, 1, 31, 39, 1350);
+            //int answer = Day13.RunPart1(1, 1, 31, 39, 1350);
             //int answer = Day13.RunPart2(1, 1, 31, 39, 50, 1350);
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Answer is {0}", answer);
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.ForegroundColor = ConsoleColor.White;
+            //Console.WriteLine("Answer is {0}", answer);
 
+            //21340 is wrong - too high
+            //21177 is wrong - too high
+            //20700 is wrong - too high
+            //20960 is wrong - too high
+            //Day14.Run("ihaygndm", 64, true);
+            Day14.Run("ihaygndm", 64, true); //part 2
 
             //string[] day8Test = new string[] { "value 5 goes to bot 2", "bot 2 gives low to bot 1 and high to bot 0", "value 3 goes to bot 1", 
             //    "bot 1 gives low to output 1 and high to bot 0", "bot 0 gives low to output 2 and high to output 0", "value 2 goes to bot 2"

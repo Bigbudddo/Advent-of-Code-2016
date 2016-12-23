@@ -87,12 +87,18 @@ namespace DebuggingConsole {
             //Day14.Run("ihaygndm", 64, true);
             //Day14.Run("ihaygndm", 64, true); //part 2
 
-            string day15Resource = DebuggingConsole.Properties.Resources.Day15_Input;
-            day15Resource = day15Resource.Replace("\r", "");
-            string[] _day15Resource = day15Resource.Split('\n');
-            string[] day15TestString = new string[] { "Disc #1 has 5 positions; at time=0, it is at position 4.", "Disc #2 has 2 positions; at time=0, it is at position 1." };
-            Day15.Run(_day15Resource);
-            Day15.Run(_day15Resource, true);
+            //string day15Resource = DebuggingConsole.Properties.Resources.Day15_Input;
+            //day15Resource = day15Resource.Replace("\r", "");
+            //string[] _day15Resource = day15Resource.Split('\n');
+            //string[] day15TestString = new string[] { "Disc #1 has 5 positions; at time=0, it is at position 4.", "Disc #2 has 2 positions; at time=0, it is at position 1." };
+            //Day15.Run(_day15Resource);
+            //Day15.Run(_day15Resource, true);
+
+            //Day16.Run("1", 4);
+            //Day16.Run("110010110100", 12);
+            //Day16.Run("10000", 20);
+            //Day16.Run("10001001100000001", 272);
+            //Day16.Run("10001001100000001", 35651584);
 
             //string[] day8Test = new string[] { "value 5 goes to bot 2", "bot 2 gives low to bot 1 and high to bot 0", "value 3 goes to bot 1", 
             //    "bot 1 gives low to output 1 and high to bot 0", "bot 0 gives low to output 2 and high to output 0", "value 2 goes to bot 2"
